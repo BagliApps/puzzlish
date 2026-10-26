@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Puzzlish</title>
+<meta name="description" content="Puzzlish — word puzzles that teach English vocabulary. Every word you find comes with its meaning.">
+<link rel="icon" href="img/icon.jpg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<header class="top">
+  <a class="brand" href="https://bagliapps.github.io/">‹ BagliApps</a>
+  <div class="lang" role="group" aria-label="Language / Dil">
+    <button type="button" data-set="en" aria-pressed="true">English</button>
+    <button type="button" data-set="tr" aria-pressed="false">Türkçe</button>
+  </div>
+</header>
+
+<div class="hero">
+  <img src="img/icon.jpg" alt="" width="72" height="72">
+  <div>
+    <h1>Puzzlish</h1>
+    <p class="meta" data-l="en">Word puzzles that teach English vocabulary</p>
+    <p class="meta" data-l="tr" hidden>Bulmaca çözerek İngilizce kelime öğren</p>
+  </div>
+</div>
+
+<p data-l="en">Puzzlish turns English vocabulary into puzzles. Every word you find shows its definition right away, and at the end of each level you get the list of its words with their meanings.</p>
+<p data-l="tr" hidden>Puzzlish ile İngilizce kelimeleri bulmaca çözerek öğren. Bulduğun her İngilizce kelimenin Türkçe anlamı hemen ekranda görünür; seviye bitince o seviyenin kelimeleri anlamlarıyla listelenir.</p>
+
+<h2 data-l="en">Puzzle modes</h2><h2 data-l="tr" hidden>Bulmaca modları</h2>
+<ul class="modes" data-l="en">
+  <li><b>Letter Wheel</b> — connect letters, find the words.</li>
+  <li><b>Crossword</b> — read the definition, write the word.</li>
+  <li><b>Word Hunt</b> — find the word for each definition in the letter grid.</li>
+  <li><b>Card Match</b> — pair each word with its definition from the stack.</li>
+  <li><b>Daily Five</b> — one English word a day, 6 guesses.</li>
+  <li><b>Letter Mix</b> — read the definition, put the mixed letters in order.</li>
+  <li><b>Letter Guess</b> — read the definition, guess the word letter by letter.</li>
+  <li><b>Word Ladder</b> — change one letter at a time to reach the goal word.</li>
+  <li><b>Honeycomb</b> — make words from 7 letters, always using the centre one.</li>
+</ul>
+<ul class="modes" data-l="tr" hidden>
+  <li><b>Harf Çemberi</b> — harfleri birleştir, kelimeleri bul.</li>
+  <li><b>Kare Bulmaca</b> — Türkçe ipucunu oku, İngilizce cevabı yaz.</li>
+  <li><b>Kelime Avı</b> — listedeki Türkçe anlamın İngilizcesini harf tablosunda bul.</li>
+  <li><b>Kart Eşleştirme</b> — Türkçe ve İngilizce kartları desteden eşleştir.</li>
+  <li><b>Cümle Tamamlama</b> — İngilizce cümledeki boşluğu doldur, Türkçe çevirisi altta.</li>
+  <li><b>Günlük 5 Harf</b> — her gün bir İngilizce kelime, 6 tahmin hakkı.</li>
+  <li><b>Karışık Harfler</b> — Türkçe anlamı oku, karışık harfleri sıraya koy.</li>
+  <li><b>Harf Tahmini</b> — Türkçe anlamı oku, kelimeyi harf harf tahmin et.</li>
+  <li><b>Kelime Merdiveni</b> — her adımda bir harf değiştir, hedef kelimeye ulaş.</li>
+  <li><b>Petek</b> — 7 harften, ortadaki harfi hep kullanarak kelime üret.</li>
+</ul>
+
+<h2 data-l="en">Features</h2><h2 data-l="tr" hidden>Özellikler</h2>
+<ul class="features" data-l="en">
+  <li><b>Puzzle of the Day</b> — a new puzzle from a different mode on the home screen every day.</li>
+  <li><b>My Word Book</b> — the words you find in every mode collect in one book with their definitions. Search by word or by meaning.</li>
+  <li><b>From A2 to C2</b> — words go from easy to hard and from common to rare. Hundreds of levels in every mode.</li>
+  <li><b>Hints</b> — stuck? Use a hint, such as a letter or the whole word, paid with coins you earn while playing.</li>
+  <li>Unfinished puzzles are saved. Light and dark theme. English and Turkish interface.</li>
+</ul>
+<ul class="features" data-l="tr" hidden>
+  <li><b>Günün Bulmacası</b> — ana ekranda her gün başka bir moddan yeni bir bulmaca.</li>
+  <li><b>Kelime Defterim</b> — bütün modlarda bulduğun kelimeler anlamlarıyla tek defterde toplanır. Kelimeyi ya da anlamını arayarak bul.</li>
+  <li><b>A2'den C2'ye</b> — kelimeler kolaydan zora, sık kullanılandan seyreğe doğru ilerler. Her modda yüzlerce seviye var.</li>
+  <li><b>İpuçları</b> — takılınca bir harf ya da kelimenin tamamı gibi ipuçları al; oyunda kazandığın jetonlarla.</li>
+  <li>Kare Bulmaca'da istersen ipuçlarını İngilizce tanımlarıyla oku. Yarım kalan bulmaca kaydedilir. Açık ve koyu tema.</li>
+</ul>
+
+<h2 data-l="en">Screenshots</h2><h2 data-l="tr" hidden>Ekran görüntüleri</h2>
+<ul class="shots" id="shots"></ul>
+
+<h2 data-l="en">Free to play</h2><h2 data-l="tr" hidden>Ücretsiz</h2>
+<p data-l="en">No lives or energy, all modes are free. Puzzlish is supported by ads; an in-app purchase removes banner and full-screen ads, while rewarded ads stay optional. Optional coin packs are available too. No account needed; your progress stays on your device.</p>
+<p data-l="tr" hidden>Can/enerji yok, tüm modlar ücretsiz. Puzzlish reklamlarla destekleniyor; uygulama içi satın almayla banner ve tam ekran reklamları kaldırabilirsin, ödüllü reklamlar isteğe bağlı kalır. İstersen jeton paketi de alabilirsin. Hesap gerekmez; ilerlemen cihazında kalır.</p>
+
+<h2 data-l="en">Privacy</h2><h2 data-l="tr" hidden>Gizlilik</h2>
+<p data-l="en">No account, and your progress stays on your device. Ads come from Google AdMob: where the law requires it, the app asks for your consent first, and you can change your choice in Settings. Anonymous crash reports help us fix bugs and can be turned off. Details are in the privacy policy.</p>
+<p data-l="tr" hidden>Hesap yok; ilerlemen cihazında kalır. Reklamlar Google AdMob'dan gelir: yasanın gerektirdiği yerlerde uygulama önce iznini sorar, seçimini Ayarlar'dan değiştirebilirsin. İsimsiz çökme raporları hataları düzeltmemize yardım eder ve kapatılabilir. Ayrıntılar gizlilik politikasında.</p>
+
+<ul class="links">
+  <li><a href="privacy.html" data-l="en">Privacy Policy</a><a href="privacy-tr.html" data-l="tr" hidden>Gizlilik Politikası</a></li>
+  <li><a href="support.html" data-l="en">Support</a><a href="support-tr.html" data-l="tr" hidden>Destek</a></li>
+</ul>
+<footer>© 2026 Alper Bağlı</footer>
+</main>
+<script>
+(function () {
+  var shots = [
+    ["1_home", "Home", "Ana sayfa"], ["2_wheel", "Letter Wheel", "Harf Çemberi"],
+    ["3_crossword", "Crossword", "Kare Bulmaca"], ["4_book", "My Word Book", "Kelime Defterim"]
+  ];
+  function saved() { try { return localStorage.getItem("lang"); } catch (e) { return null; } }
+  function pick() {
+    var q = /[?&]lang=(en|tr)/.exec(location.search);
+    return (q && q[1]) || saved() || ((navigator.language || "").slice(0, 2) === "tr" ? "tr" : "en");
+  }
+  function apply(l) {
+    document.documentElement.lang = l;
+    document.querySelectorAll("[data-l]").forEach(function (e) { e.hidden = e.getAttribute("data-l") !== l; });
+    document.querySelectorAll("[data-set]").forEach(function (b) { b.setAttribute("aria-pressed", b.dataset.set === l); });
+    document.getElementById("shots").innerHTML = shots.map(function (s) {
+      var c = l === "tr" ? s[2] : s[1];
+      return '<li><figure><img loading="lazy" src="img/' + l + "/" + s[0] + '.jpg" alt="Puzzlish — ' + c + '"><figcaption>' + c + "</figcaption></figure></li>";
+    }).join("");
+    try { localStorage.setItem("lang", l); } catch (e) {}
+  }
+  document.querySelectorAll("[data-set]").forEach(function (b) { b.addEventListener("click", function () { apply(b.dataset.set); }); });
+  apply(pick());
+})();
+</script>
+</body>
+</html>
